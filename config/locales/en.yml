@@ -1,0 +1,20 @@
+en:
+  hello: "Hello world"
+  activerecord:
+    attributes:
+      tweet:
+        message: "A Tweet"
+      user:
+        username: "Username"
+    errors:
+      models:
+        tweet:
+          attributes:
+            message:
+              blank: " is missing.."
+              too_long: " is only 140 char max.."
+        user:
+          attributes:
+            username:
+              blank: " is missing.."
+              taken: " must be unique. You're to late!! "   
